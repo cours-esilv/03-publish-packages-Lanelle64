@@ -17,7 +17,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/Lanelle64/cours-esilv-publish-packages/game
+          images: ghcr.io/cours-esilv/03-publish-packages-Lanelle64/game
           tags: type=sha
       - name: Login to GHCR
         uses: docker/login-action@v3
